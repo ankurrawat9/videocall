@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/homepanel2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".IncomingCallActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+
+            android:text="Establishing Connection..."
+            android:textSize="26dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+
+
+            android:layout_marginTop="70dp"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+
+            android:layout_marginTop="140dp"
+            android:fontFamily="monospace"
+            android:text="Please answer the call"
+            android:textColor="#000"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="107dp"
+                android:layout_height="95dp"
+                android:layout_gravity="bottom|center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/answercall"
+
+                android:onClick="answerCall" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="104dp"
+                android:layout_height="92dp"
+                android:layout_gravity="bottom|center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/cutcall"
+                android:onClick="answerCall" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

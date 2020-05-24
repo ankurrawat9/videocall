@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">videocall</string>
+    <string name="app_name">videocall</string>\
+    <string name="title_activity_incoming_call">IncomingCallActivity</string>
+    <string name="title_activity_call">CallActivity</string>
 </resources>
